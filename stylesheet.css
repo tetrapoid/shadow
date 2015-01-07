@@ -1,0 +1,41 @@
+body {
+  background-color: #efefef;
+}
+.box {
+  margin: 5px auto;
+  width: 500px;
+  height: 150px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.box h3 {
+  text-align: center;
+  position: relative;
+  top: 70px;
+  color: #000;
+}
+.box1 {
+  -webkit-box-shadow: 0 10px 6px -6px #777;
+  -moz-box-shadow: 0 10px 6px -6px #777;
+  box-shadow: 10px 10px 6px -6px #777;
+}
+
+.box2:before {
+  z-index: -1;
+  position: absolute;
+  content: "";
+  height: 100px;
+  width: 400px;
+  top: 31%;
+  right: 36%;
+  background: #777;
+  -webkit-box-shadow: 0 15px 10px #777;
+  -moz-box-shadow: 0 15px 10px #777;
+  box-shadow: 0 15px 10px #777;
+  -webkit-box-shadow: rotate(-3deg);
+  -webkit-transform: rotate(-3deg);
+  -moz-transform: rotate(-3deg);
+  -o-transform: rotate(-3deg);
+  -ms-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+}
